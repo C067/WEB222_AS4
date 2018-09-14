@@ -1,0 +1,73 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Callum Dodge       Student ID: 100229178      Date: July 10, 2018
+* 
+********************************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Atma');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body {
+    color: #1a1a1a;
+    background-color: navajowhite;
+    height: auto;
+}
+
+header {
+    border: groove 4px;
+    background-color: #cdcdb4;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: #4d4f4f;
+}
+
+span {
+    color: darkslateblue;
+    font-style: oblique;
+}
+
+footer {
+    margin-top: 5px;
+    background-color: #4d4f4f;
+}
+
+td {
+    font-family: 'Atma', cursive;
+    font-size: 18px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+th {
+    font-family: 'Atma', cursive;
+    font-size: 22px;
+    text-align:left;
+    background-color: #cdb79e;
+}
+
+table, th, td {
+    border: solid 3px black;
+}
+
+.digital-pets {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 38px;
+    font-stretch: expanded;
+    font-style: italic;
+}
+
+.main-table-container {
+    overflow-y: scroll;
+    max-height: 350px;
+}
